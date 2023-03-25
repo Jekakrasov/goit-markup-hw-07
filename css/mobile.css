@@ -1,0 +1,51 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu,
+  .contacts {
+    display: none;
+  }
+  .page-header {
+    flex-direction: row-reverse;
+  }
+  .header {
+    padding-bottom: 24px;
+  }
+  .hearo-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    width: 320px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* WHITE */
+
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 1198px) {
+  .hearo {
+    display: none;
+    display: flex;
+    background: var(--dark);
+    padding: 180px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mob-people-office.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

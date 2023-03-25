@@ -19,11 +19,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/table.css" />
+    <link rel="stylesheet" href="./css/desctop.css" />
   </head>
 
   <body>
     <!-- hiden -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="backdrop-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -102,10 +105,93 @@
           <button type="submit" class="modal-submit-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <!-- top line -->
     <header class="header">
       <div class="container page-header">
+        <button
+          type="button"
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="footer-social-icon" width="32" height="22">
+            <use href="./images/sprite.svg#icon-charm"></use>
+          </svg>
+        </button>
+        <div class="mobile-window js-menu-container" id="mobile-menu">
+          <div class="mob-container js-menu-container" id="mobile-menu">
+            <button
+              type="button"
+              class="backdrop-btn js-close-menu"
+              .js-close-menu
+            >
+              <svg class="modal-close-icon" width="8" height="8">
+                <use href="./images/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav>
+              <ul class="mob-menu list">
+                <li class="mob-menu-items">
+                  <a href="./index.html" class="mob-menu-link link">Studio</a>
+                </li>
+                <li class="mob-menu-items">
+                  <a href="./portfolio.html" class="mob-menu-link link"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="mob-menu-items">
+                  <a href="" class="mob-menu-link link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="mob-contacts">
+              <ul class="mob-contacts-list list">
+                <li class="mob-contact-number">
+                  <a href="tel:+110001111111" class="mob-number link"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mob-contact-mail">
+                  <a href="mailto:info@devstudio.com" class="mob-mail link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="menu-social list">
+              <li class="team-social-item">
+                <a href="" class="team-social-link link">
+                  <svg class="tem-social-icon" width="16" height="16">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="team-social-link link">
+                  <svg class="tem-social-icon" width="16" height="16">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="team-social-link link">
+                  <svg class="tem-social-icon" width="16" height="16">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="team-social-link link">
+                  <svg class="tem-social-icon" width="16" height="16">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <nav class="header-nav">
           <a href="./index.html" class="header-logo link"
             ><span class="header-web">Web</span>Studio</a
@@ -152,7 +238,7 @@
       </section>
 
       <!-- section 1 -->
-      <section class="feature section">
+      <!-- <section class="feature section">
         <div class="container">
           <h2 class="notitle">features</h2>
           <ul class="list feature-list">
@@ -206,9 +292,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- section 2 -->
-      <section class="doing section">
+      <!-- <section class="doing section">
         <div class="container">
           <h2 class="doing-title">What are we doing</h2>
           <ul class="doing-list list">
@@ -239,9 +325,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- section 3 -->
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
@@ -415,9 +501,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- partnier -->
-      <section class="parnier section">
+      <!-- <section class="parnier section">
         <div class="container">
           <h2 class="partnier-title">Customers</h2>
           <ul class="partnier-list list">
@@ -465,10 +551,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container container">
         <div>
           <a href="./index.html" class="footer-link link"
@@ -536,7 +622,15 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
 
     <script src="./js/modal.js"></script>
   </body>
