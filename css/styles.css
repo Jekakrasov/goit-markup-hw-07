@@ -181,13 +181,13 @@ img {
   background-color: #ffffff;
   opacity: 0;
   visibility: hidden;
-  pointer-events: 0;
+  pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-window.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: 1;
+  pointer-events: auto;
 }
 .mob-container {
   padding-top: 80px;
