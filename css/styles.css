@@ -172,6 +172,7 @@ img {
 }
 /* mobile-menu */
 .mobile-window {
+  display: flex;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -192,6 +193,9 @@ img {
 .mob-container {
   padding-top: 80px;
   padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .mob-menu-link {
   font-family: "Roboto";
@@ -247,7 +251,6 @@ img {
   margin-bottom: 48px;
 }
 .mob-menu {
-  margin-bottom: 284px;
 }
 .menu-social {
   display: flex;

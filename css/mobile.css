@@ -5,9 +5,10 @@
     margin-right: auto;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu,
-  .contacts {
+  .contacts,
+  .feature-bg {
     display: none;
   }
   .page-header {
@@ -28,6 +29,20 @@
     text-transform: capitalize;
 
     color: #ffffff;
+  }
+  .feature-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .feature-text {
+    font-weight: 500;
   }
 }
 @media screen and (max-width: 1198px) {
