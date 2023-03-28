@@ -250,11 +250,10 @@ img {
 .mob-contacts {
   margin-bottom: 48px;
 }
-.mob-menu {
-}
+
 .menu-social {
   display: flex;
-  gap: 56px;
+  justify-content: space-around;
   padding-bottom: 40px;
 }
 /* hearo */
@@ -511,11 +510,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--text);
 
-  width: 264px;
+  width: 100%;
 }
 .feature-bg {
   background-color: var(--bg-icon);
-  width: 264px;
+  width: 266px;
   height: 112px;
   margin-bottom: 8px;
   border-radius: 4px;
@@ -632,12 +631,11 @@ img {
 }
 .partnier-list {
   display: flex;
-  gap: 24px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .partnier-item {
-  width: 168px;
+  width: auto;
   height: 88px;
 }
 .partnier-link {
@@ -884,7 +882,7 @@ img {
 }
 /* visual */
 .container {
-  width: 100%;
+  /* width: 100%; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
