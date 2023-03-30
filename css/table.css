@@ -72,9 +72,8 @@
     margin-bottom: 72px;
   }
   .footer-container {
-    margin-right: 108px;
     flex-wrap: wrap;
-    justify-content: normal;
+    justify-content: center;
     align-items: normal;
   }
   .footer-social-link-mob {
