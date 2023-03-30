@@ -8,7 +8,8 @@
 @media screen and (max-width: 767px) {
   .menu,
   .contacts,
-  .feature-bg {
+  .feature-bg,
+  .doing {
     display: none;
   }
   .page-header {
@@ -28,18 +29,7 @@
 
     color: #ffffff;
   }
-  .feature-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
 
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }
-  .feature-text {
-    font-weight: 500;
-  }
   .hearo {
     display: none;
     display: flex;
@@ -54,6 +44,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .feature-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .feature-text {
+    font-weight: 500;
   }
   .feature-item {
     display: flex;
