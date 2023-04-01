@@ -7,6 +7,9 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1198px) {
+  .hearo {
+    padding: 112px 0;
+  }
   .feature-bg {
     display: none;
   }
@@ -73,8 +76,9 @@
   }
   .footer-container {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: normal;
+    width: 552px;
   }
   .footer-social-link-mob {
     background-color: #4d5ae5;

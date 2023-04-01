@@ -12,22 +12,26 @@
   .doing {
     display: none;
   }
+  .section {
+    padding-bottom: 96px;
+    padding-top: 96px;
+  }
   .page-header {
     flex-direction: row-reverse;
   }
   .header {
     padding-bottom: 24px;
   }
+  .modal {
+    width: 95%;
+  }
   .hearo-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    width: 320px;
+    width: 100%;
     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
 
-    color: #ffffff;
+    text-transform: capitalize;
   }
 
   .hearo {
@@ -54,9 +58,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
   }
-  .feature-text {
-    font-weight: 500;
-  }
+
   .feature-item {
     display: flex;
     flex-direction: column;
@@ -82,6 +84,9 @@
   .partnier-item {
     width: 190px;
     margin-bottom: 72px;
+  }
+  .partnier-item-mob {
+    margin-bottom: 0;
   }
   .footer-container {
     display: block;
