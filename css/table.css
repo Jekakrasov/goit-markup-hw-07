@@ -36,9 +36,9 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
   }
-  .feature-text {
+  /* .feature-text {
     font-weight: 500;
-  }
+  } */
   .feature-list {
     flex-wrap: wrap;
   }
